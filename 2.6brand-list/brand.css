@@ -1,0 +1,32 @@
+
+.SubCategoryBox {
+    border: 1px solid #000;
+}
+
+ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+li {
+    float: left;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.showmore {
+    text-align: center;
+    padding: 20px;
+}
+
+.showmore a {
+    padding: 7px 15px;
+    border: 1px dotted #aed0ec;
+}
+
+.promoted {
+    background: red;
+}

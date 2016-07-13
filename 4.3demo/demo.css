@@ -1,0 +1,58 @@
+.show {
+    width: 650px;
+    height: 230px;
+    border: 1px solid #a1a1a1;
+}
+.caption {
+    height: 30px;
+    line-height: 30px;
+    background: #EEEEEE;
+}
+.highlight {
+    overflow: hidden;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.highlight div {
+    float: left;
+    margin: 1px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: black;
+    border: 1px solid #d4d4d4;
+}
+.highlight .current {
+    background: red;
+}
+.change_btn {
+    float: right;
+    overflow: hidden;
+    margin: 3px 10px 0 0;
+}
+.change_btn span {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 23px;
+    overflow: hidden;
+    background: url("image/button.png") no-repeat;
+    cursor: pointer;
+    text-indent: -99999px;
+}
+.change_btn .prev {
+    background-position: 0 0;
+}
+.change_btn .next {
+    background-position: -30px 0;
+}
+.content {
+    overflow: hidden;
+    margin: 10px 21px;
+}
+.content img {
+    position: relative;
+    left: 0;
+}
